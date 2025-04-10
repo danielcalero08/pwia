@@ -6,7 +6,7 @@ html,body{
     margin: 0;
     padding: 0;
     height: 100%;
-    background-color: #e6a3bcda;
+    background-color: #ffd000da;
 }
 .card{
     width: 268px;
@@ -29,7 +29,7 @@ html,body{
 .preco{
     font-size: 25px;
     font-family: Impact;
-    color:#dbb1cb;
+    color:#000000;
     padding: 10px 5px;
 }
 .pagamento{
@@ -69,4 +69,8 @@ html,body{
     text-decoration: none;
     color:#FFFFFF;
     font-weight: bold;
+}
+main{
+display: flex;
+flex-wrap: wrap;
 }
