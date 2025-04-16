@@ -4,7 +4,7 @@ html,body{
     margin: 0;
     padding: 0;
     height: 100%;
-    background-color: #ffd000da;
+    background-color: #f5d105da;
 }
 .card{
     width: 268px;
@@ -41,7 +41,7 @@ html,body{
     font-size: 11px;
 }
 .button-card{
-    background-color: #c9a0ca;
+    background-color: #000000;
     color: #f5f2f2;
     font-weight: bold;
     width: 100%;
@@ -54,8 +54,8 @@ html,body{
 }
 
 .menu{
-    background-color: #666666;
-    color:#FFFFFF;
+    background-color: #000000;
+    color:#ffffff;
     border: 1px solid;
     display:flex;
 }
@@ -69,7 +69,7 @@ html,body{
 
 .link-menu{
     text-decoration: none;
-    color:#FFFFFF;
+    color:#ffffff;
     font-weight: bold;
 }
 main{
