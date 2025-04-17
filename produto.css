@@ -1,0 +1,46 @@
+.dados-produto{
+background-color: rgb(255, 0, 0);
+border:2px solid #000000 ;
+}
+
+
+.img-produto{
+background-color: rgb(255, 0, 0);
+border:2px solid #000000 ;
+}
+
+
+.info-produto{
+background-color: rgb(226, 43, 43);
+border:2px solid #000000 ;
+}
+
+
+.titulo-produto{
+background-color: rgb(255, 0, 0);
+border:2px solid #000000 ;
+}
+
+
+.valor-produto{
+background-color: rgb(255, 0, 0);
+border:2px solid #000000 ;
+}
+
+
+.add-produto-carrinho{
+background-color: rgb(252, 29, 0);
+border:2px solid #000000 ;
+}
+
+
+.descricao-produto{
+background-color: rgb(255, 0, 0);
+border:2px solid #000000 ;
+}
+
+
+.lista-personalizada{
+background-color: rgb(255, 0, 0);
+border:2px solid #000000 ;
+}
