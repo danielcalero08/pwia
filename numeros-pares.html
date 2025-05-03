@@ -1,0 +1,17 @@
+<script>
+    let resultado = ""
+    for (let i=0 ; i<=512; i++){
+        if (i %2 === 0)
+        {
+ resultado +=i+ "\n" 
+        }
+ if (i % 100 == 0 && resultado !== "") {
+    alert(resultado)
+    resultado=""
+ }
+    }
+
+if (resultado !==""){
+    alert(resultado)
+}
+</script>
