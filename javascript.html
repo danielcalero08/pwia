@@ -1,4 +1,5 @@
-<script>
+
+   <script>
    // alert("Oi sala de aula ")
  //   var texto = "Oi Galera"
    // var nome = "Daniel"
@@ -15,8 +16,63 @@
    // alert(idade)
    // alert(area)
 // peça para o susario digitar dois numeros e aperecer a soma deles
-var n1 =  parseInt (prompt ("digite numero 1") )
-var n2 = parseInt( prompt ("Digite o segundo numero") )
-var soma = n1+n2
-alert (soma)
+//var n1 =  parseInt (prompt ("digite numero 1") )
+//var n2 = parseInt( prompt ("Digite o segundo numero") )
+//var soma = n1+n2
+//alert (soma)
+/*
+function MostrarAlerta (texto)
+{
+  alert(texto)
+}
+
+function somar(numero1, numero2)
+{
+  
+  
+  var numero1 = Number (prompt("digite numero 1 "))
+  var numero2 = Number (prompt("digite numero 2 "))
+var soma = Number (numero1)+Number(numero2)
+return soma 
+}
+
+var resultado = somar (10, 20)
+MostrarAlerta (resultado)
+*/
+
+
+
+//MostrarAlerta("Hello world")
+//MostrarAlerta(prompt("Digite algo"))
+
+
+
+function MostrarAlerta (texto)
+{
+  alert(texto)
+}
+
+function somar(numero1, numero2)
+{
+  
+  
+  
+var soma = Number (numero1)+Number(numero2)
+return soma 
+}
+function cliquebotao()
+{
+var numero1 =  prompt("digite numero 1 ")
+  var numero2 =  prompt("digite numero 2 ")
+var resultado = somar (numero1,numero2)
+MostrarAlerta (resultado)
+}
+
+
+
+
+
+
 </script>
+
+<button onclick="cliquebotao()"> soma</button>
