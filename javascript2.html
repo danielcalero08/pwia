@@ -1,0 +1,25 @@
+<input type="text" value="daniel" name="nome" id="entrada" />
+<br>
+<button id="botao" onclick="TrocarTexto()">
+    evento clique
+</button>
+
+<script>
+    function TrocarTexto()
+    {
+var entrada = document.getElementById("entrada")
+//console.log(entrada)
+//alert(entrada)
+entrada.value="kkkkkkkkkkkkkkkkkkkk"
+var botao= document.getElementById("botao")
+if(botao.style.backgroundColor == "red")
+{
+    botao.style.backgroundColor = "blue"
+
+}
+else
+{
+    botao.style.backgroundColor = "red"
+}
+    }
+</script>
