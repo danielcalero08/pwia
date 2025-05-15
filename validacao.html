@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Endereço</title>
+</head>
+<body>
+    <form onsubmit="return validarformulario()"  action="salvar.html" method="post">
+        <label>cep</label>
+        <input onkeydown="validartexto()"  type="text" name="cep" id="cep" class="campo"/> <br> </br>
+        <label>endereco</label>
+        <input type="text" name="endereco" id="endereco" class="campo"/> <br>  </br>
+        <label>numero</label>
+        <input type="text" name="numero" id="numero" class="campo"/> <br>  </br>
+        <label>bairro</label>
+        <input type="text" name="bairro" id="bairro" class="campo"/> <br> </br>
+        <label>cidade</label>
+        <input type="text" name="cidade" id="cidade" class="campo"/> <br>  </br>
+        <label>estado</label>
+        <input type="text" name="estado" id="estado" class="campo"/> <br>  </br>
+ 
+<button id="botao" class="botao" type="submit">
+    enviar dados 
+</button>
+</form>
+<script>
+function validarformulario()
+{
+    var cep = document.getElementById('cep')
+    var endereco =document.getElementById('endereco')
+    var numero =document.getElementById(' numero')
+    var bairro =document.getElementById('bairro')
+    var cidade  =document.getElementById('cidade')
+    var estado =document.getElementById('estado')
+
+    if(cep.value=="")
+        {
+            alert('camp cep não pode ficar em branco')
+            cep.style.border = '2px solid red '
+            return false;
+        }
+}
+function validartexto()
+{
+    var cep =document.getElementById('cep')
+    console.log ( cep.style.border !="")
+    {
+        cep.style.border =""
+    }
+}
+</script>
+</body>
+</html>
