@@ -6,9 +6,7 @@
     <title>Vetor</title>
 </head>
 <body>
-    <input id="texto" name="texto" type="text" />
-    <button onclick="adicionarImagens()"> adicionar </button>
-    <ul id="ListaImages">   </ul>
+    
     <script>
         function adicionarImagens()
         {
@@ -19,11 +17,30 @@
             img.src= texto.value
            img.width= 150
            img.height = 75
-           item.append(img)
-           lista.append(item)
+           item.appendChild(img)
+           lista.appendChild(item)
 
         }
-        
+     
+var nomes = ["amanda", "daniel", "julio", "joao"];
+
+
+function numeroAleatorio(numeroMaximo) {
+    return Math.floor(Math.random() * numeroMaximo);
+}
+
+
+nomes.forEach((valor, indice) => {
+    document.write("Índice: " + indice + " - Valor: " + valor + "<br>");
+});
+
+nomes.reverse();
+
+document.write("<br>Após reversão:<br>");
+nomes.forEach((valor, indice) => {
+    document.write("Índice: " + indice + " - Valor: " + valor + "<br>");
+});
+
     </script>
 </body>
 </html>
