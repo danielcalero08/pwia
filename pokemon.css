@@ -1,18 +1,18 @@
-ody {
+body {
   font-family: 'Roboto', sans-serif;
-  background-color: #f2f2f2;
+  background-color: #000000;
   margin: 0;
   padding: 0;
 }
 
 header {
-  background-color: #ef5350;
+  background-color: #ff0000;
   padding: 16px;
   text-align: center;
 }
 
 header nav a {
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 1.5rem;
   text-decoration: none;
   font-weight: bold;
@@ -25,7 +25,7 @@ main {
 }
 
 h1 {
-  color: #333;
+  color: #ffffff;
 }
 
 .search-controls {
@@ -41,7 +41,7 @@ h1 {
 .search-controls button {
   padding: 10px;
   font-size: 1rem;
-  border: 1px solid #ccc;
+  border: 1px solid #000000;
   border-radius: 6px;
   outline: none;
 }
@@ -52,7 +52,7 @@ h1 {
 
 .search-controls button {
   background-color: #ef5350;
-  color: white;
+  color: rgb(0, 0, 0);
   cursor: pointer;
   transition: background-color 0.2s ease;
   border: none;
@@ -68,14 +68,16 @@ h1 {
   gap: 16px;
 }
 
+/* --- Cards com fundo branco e texto preto --- */
 .pokemon-card {
-  background-color: white;
+  background-color: #ffffff;
+  color: #000000;
   border-radius: 8px;
   padding: 10px;
   text-align: center;
   cursor: pointer;
   transition: transform 0.2s ease;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 .pokemon-card:hover {
@@ -92,11 +94,11 @@ h1 {
   text-transform: capitalize;
   margin-top: 8px;
   font-weight: bold;
-  color: #444;
+  color: #000000;
 }
 
 .modal-content {
-  background-color: white;
+  background-color: rgb(255, 0, 0);
   margin: 5% auto;
   padding: 20px;
   border-radius: 8px;
@@ -127,28 +129,28 @@ h1 {
 
 .type {
   display: inline-block;
-  background-color: #ddd;
+  background-color: #000000;
   border-radius: 12px;
   padding: 4px 10px;
   margin: 4px 6px;
   font-size: 0.85em;
   text-transform: capitalize;
+  color: #ffffff;
 }
 
-/* --- AQUI COMEÇA O ESTILO NOVO --- */
-
+/* --- Card ativo (clicado ou buscado) --- */
 .pokemon-card.active {
-  background-color: black !important;
+  background-color: #f2f2f2 !important;
   border: 2px solid #ef5350 !important;
-  color: white !important;
+  color: #000 !important;
   box-shadow: 0 2px 8px rgba(239, 83, 80, 0.7);
 }
 
 .pokemon-card.active p {
-  color: white !important;
+  color: #000 !important;
 }
 
 .pokemon-card.active img {
-  filter: brightness(0) invert(1);
+  filter: none; /* remove o invert preto */
   transition: filter 0.3s ease;
 }
